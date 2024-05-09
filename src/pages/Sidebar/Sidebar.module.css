@@ -1,0 +1,67 @@
+.navbar{
+     top: 0;
+     bottom: 0;
+     height: 100%;
+     width: auto;
+     left: 0;
+     background:#1E1E1E ;
+     width: 200px;
+     overflow:hidden;
+     border-right:  solid #AA4021;  
+     position: absolute;
+     box-shadow: 0px 0px 6px 4px rgba(170, 64, 33, 0.5); 
+     z-index: 1;
+   
+ }
+ /**************************STYLE DE LA LISTE*********************/
+ .list{
+     position: absolute;
+     list-style:none;
+     display:block;
+     padding-left: 10px;
+ }
+ #header_list{
+     top: 30%;
+     transform: translateY(-30%);
+ }
+ #footer_list{
+ /* margin-top: 500px; */
+ border-top:  solid #323539;
+ bottom: 0;
+ padding: 20px;
+ }
+ .list li{
+     position: relative;
+     font-size: 18px;
+     display: table;
+     width: 300px;
+     padding-bottom: 13px;
+     display: flex;
+     top: "55px";
+    
+ }
+ /*********************Style Du text ********************/
+ .nav_item{
+     color: #c3c3c3;
+     margin:17px;
+     position: relative;
+     top: 2px;
+     transition: color 0.3s;
+ }
+ .nav_item:hover,
+ .nav_item:focus {
+   color: #f88e6e; /* Change la couleur au survol, lors du clic, et lorsqu'il est en focus */
+ }
+
+ /******************** Style des images***************/
+.img_sid{
+     color:white;
+     height: 23px;
+     width: auto;
+ }
+ 
+ /* .img_sid_pos{
+    top: "46px";
+    position: fixed;
+ }
+  */

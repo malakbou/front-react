@@ -1,0 +1,125 @@
+body{
+  background-color: aliceblue;
+}
+
+
+.event_item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn_container{
+ position: relative;
+ top: 190px;
+ right: 30px;
+}
+
+.btn_event{
+  position: relative;
+  top: 120px;
+  left: 215px;
+}
+
+
+.calendar{
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  overflow: hidden; 
+}
+
+/********************* Title colot pour calendar */
+
+.title_header{
+  text-align: center;
+  color: aliceblue;
+  font-family: "Lucida Console", Courier, monospace;
+}
+.title_header_color{
+  background-color: rgb(36, 36, 36);
+}
+
+
+/********************* Les boutons de delete et edit */
+
+/* delete button */
+
+.delete_btn{
+  padding: 5px 19px; 
+  border-radius: 5px; 
+  background-color: #FCE7E7; 
+  font-size: large;
+  color: #EF7171; /* Couleur du texte du bouton */
+  border: none; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.delete_btn:hover {
+  color: white;
+  background-color: #F07E7E; /* Changement de couleur de fond au survol */
+}
+
+.delete_btn:focus {
+  outline: none; /* Supprime la bordure de mise au point par défaut */
+}
+
+
+/* edit button */
+.edit_btn{
+  padding: 5px 24px; 
+  border-radius: 5px; 
+  background-color: rgb(232,239,251); 
+  font-size: large;
+  color: #6A94E8; /* Couleur du texte du bouton */
+  border: none; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.edit_btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 98, 202); /* Changement de couleur de fond au survol */
+}
+
+.edit_btn:focus {
+  outline: none; /* Supprime la bordure de mise au point par défaut */
+}
+
+
+.edit_delete_btn{
+  margin-left: 130px;
+  top: 520px;
+  position: fixed;
+}
+
+/* pour le formulaire de edit event */
+.edit_bax_header{
+  background-color: #1b8c94;
+}
+.edit_title{
+  text-align: center;
+}
+
+/* pour le formulaire de creer event */
+.creer_event_header{
+  background-color: #b9681b;
+  color: rgb(255, 245, 236);
+  text-align: center;
+  
+}
+
+.creer_event_Content{
+  border-radius: "80px";
+}
+
+.dialog_content{
+  border-radius: 30px;
+}
+
+.title_header_color{
+  background-color: #063697;
+}
+
+
+
+
